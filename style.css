@@ -72,14 +72,23 @@ h1, h2, h3, h4, .logo {
 }
 
 .logo {
-    font-size: 1.8rem;
-    color: var(--text-main);
-    letter-spacing: -1px;
     z-index: 1001;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
-.logo span {
-    color: var(--primary);
+.logo-img {
+    width: 45px;
+    height: auto;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-img:hover {
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.4),
+                0 0 30px rgba(14, 165, 233, 0.15);
+    transform: scale(1.08);
 }
 
 .nav-links {
