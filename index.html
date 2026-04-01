@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moises Porras | Desarrollador Backend</title>
+    <meta name="description" content="Portafolio de Moises Porras, T.S.U en Informática y Desarrollador Backend.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MP<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#trayectoria">Trayectoria</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section id="inicio" class="hero">
+            <div class="hero-content" data-aos="fade-in" data-aos-duration="1000">
+                <p class="greeting">Hola, soy</p>
+                <h1 class="name">MOISES PORRAS</h1>
+                <h2 class="role">T.S.U. en Informática | Desarrollador Backend</h2>
+                <p class="description">
+                    Construyendo arquitecturas sólidas y optimizando procesos empresariales mediante código limpio y eficiente.
+                </p>
+                
+                <div class="cta-group">
+                    <a href="#proyectos" class="btn btn-primary">Ver Mis Proyectos</a>
+                    <a href="Documento sin título.pdf" download="Moises_Porras_CV.pdf" class="btn btn-secondary"><i class="fas fa-download"></i> Descargar CV</a>
+                    <a href="https://github.com" target="_blank" class="btn btn-icon" aria-label="Mi GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-photo" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="200">
+                <div class="photo-glow"></div>
+                <img src="perfil.jpg" alt="Foto de Moises Porras" class="profile-img">
+            </div>
+        </section>
+
+        <!-- Sobre Mí -->
+        <section id="about" class="about-me-section" data-aos="fade-up">
+            <div class="about-me-container">
+                <div class="about-me-line"></div>
+                <p>T.S.U. en Informática y Desarrollador Backend apasionado por la creación de sistemas robustos y eficientes. Mi enfoque se centra en la optimización de procesos mediante código limpio y soluciones tecnológicas innovadoras, aprovechando mis conocimientos en <strong>Python</strong>, <strong>PHP (Laravel)</strong>, <strong>C++</strong> y <strong>SQL</strong> para el desarrollo de aplicaciones complejas y sistemas integrales.</p>
+                <div class="about-me-line"></div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="skills" class="skills">
+            <div class="section-title">
+                <h2>Habilidades Técnicas</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Lenguajes Principales -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="0">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Lenguajes Principales</h3>
+                    <ul>
+                        <li><i class="devicon-python-plain colored"></i> Python</li>
+                        <li><i class="devicon-php-plain colored"></i> PHP</li>
+                        <li><i class="devicon-cplusplus-plain colored"></i> C++</li>
+                        <li><i class="devicon-azuresqldatabase-plain colored"></i> SQL</li>
+                    </ul>
+                </div>
+
+                <!-- Tecnologías Frontend -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Tecnologías Frontend</h3>
+                    <ul>
+                        <li><i class="devicon-html5-plain colored"></i> HTML5</li>
+                        <li><i class="devicon-css3-plain colored"></i> CSS3</li>
+                        <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+                        <li><i class="devicon-vuejs-plain colored"></i> Vue.js</li>
+                    </ul>
+                </div>
+
+                <!-- Bases de Datos -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Bases de Datos</h3>
+                    <ul>
+                        <li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
+                        <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+                        <li><i class="devicon-microsoftsqlserver-plain colored"></i> SQL Server</li>
+                        <li><i class="devicon-sqlite-plain colored"></i> SQLite</li>
+                        <li><i class="devicon-mariadb-plain colored"></i> MariaDB</li>
+                    </ul>
+                </div>
+
+                <!-- Frameworks y Entornos -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Frameworks y Entornos</h3>
+                    <ul>
+                        <li><i class="devicon-laravel-original colored"></i> Laravel</li>
+                        <li><i class="devicon-qt-original colored"></i> PyQt6</li>
+                        <li><i class="devicon-git-plain colored"></i> Git</li>
+                        <li><i class="devicon-linux-plain colored"></i> Linux</li>
+                        <li><i class="devicon-arduino-plain colored"></i> Arduino</li>
+                        <li><i class="devicon-laragon-original colored"></i> Laragon</li>
+                        <li><i class="devicon-apache-plain colored"></i> XAMPP</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos" class="projects">
+            <div class="section-title">
+                <h2>Proyectos Destacados</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <h3>Plataforma de Optimización Logística</h3>
+                        <p>Backend desarrollado con Python y PostgreSQL para el control de inventario y distribución corporativa. Permite trazabilidad precisa y gestión óptima de recursos.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PyQt6</span>
+                            <span class="tag">Cliente-Servidor</span>
+                        </div>
+                        <h3>SIGME (Gestión Académica)</h3>
+                        <p>Aplicación de escritorio robusta con más de 15 módulos y arquitectura Cliente-Servidor local usando Python y PyQt6. Diseñada para alto rendimiento y escalabilidad en instituciones educativas.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <h3>Sistema de Citas Médicas</h3>
+                        <p>Aplicación web estructurada bajo el patrón MVC, desarrollada con el framework Laravel (PHP) y base de datos MySQL. Facilita la administración de historiales y horarios clínicos.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Código</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 4 (Con Video) -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-media">
+                        <!-- Reemplazar "VIDEO_ID" con el ID real de YouTube -->
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" 
+                                title="Demostración Control de Puente Grúa" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Arduino</span>
+                        </div>
+                        <h3>Control de Puente Grúa Industrial</h3>
+                        <p>Diseño de lógica de control automatizado integrando hardware y software con C++ y Arduino para la manipulación precisa de cargas en entornos industriales.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Código</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección Trayectoria -->
+        <section id="trayectoria" class="timeline-section">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Mi Trayectoria</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- Hito 1: 2026 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+                    <div class="timeline-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Actualidad — 2026</span>
+                        <h3>Desarrollador de Software (Tesis de Grado)</h3>
+                        <p>Desarrollo de un sistema administrativo integral para la empresa Inversiones Montañazul, optimizando la gestión de inventarios y reportes financieros.</p>
+                        <div class="timeline-badge">
+                            <i class="fas fa-trophy"></i> Digitalización del 100% de los procesos manuales de la empresa.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hito 2: 2025 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2025 — Oct 2025</span>
+                        <h3>Desarrollador Backend (Python/PyQt6)</h3>
+                        <h4 class="timeline-project">Proyecto SIGME — Automatización Educativa</h4>
+                        <p>Creación de un sistema de gestión académica con +15 módulos para el control de notas y registros estudiantiles en un liceo local.</p>
+                        <div class="timeline-badge">
+                            <i class="fas fa-trophy"></i> Reducción drástica del tiempo de emisión de reportes administrativos.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hito 3: 2024 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Programador Fullstack (Laravel/MySQL)</h3>
+                        <h4 class="timeline-project">Sistema de Citas Médicas</h4>
+                        <p>Implementación de una plataforma web para la gestión de turnos médicos bajo arquitectura MVC.</p>
+                    </div>
+                </div>
+
+                <!-- Hito 4: 2023 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3>Estudiante de T.S.U. en Informática</h3>
+                        <h4 class="timeline-project">Inicio de Carrera en Informática</h4>
+                        <p>Comienzo de formación técnica superior enfocada en lógica de programación, bases de datos y redes de computadoras.</p>
+                    </div>
+                </div>
+
+                <!-- Hito 5: 2022-2023 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 — 2024</span>
+                        <h3>Atención al Cliente y Manejo de Cuentas</h3>
+                        <h4 class="timeline-project">Panadería</h4>
+                        <p>Atención directa al público y manejo de inventarios, desarrollando alta capacidad de organización y resolución de problemas.</p>
+                        <div class="timeline-badge">
+                            <i class="fas fa-star"></i> Desarrollo de habilidades de organización y resolución de problemas bajo presión.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hito 6: 2022 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022</span>
+                        <h3>Bachiller de la República</h3>
+                        <h4 class="timeline-project">U.E.P. Simón y Simón</h4>
+                        <p>Graduación de Bachillerato. Base académica sólida que sentó las bases de mi camino profesional en tecnología.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contacto -->
+    <footer id="contacto" class="footer">
+        <div class="footer-container">
+            <h2 class="footer-title">Ponte en contacto</h2>
+            <p class="footer-desc">¿Interesado en colaborar o tienes alguna propuesta? Mi bandeja de entrada siempre está abierta.</p>
+            
+            <div class="contact-methods">
+                <a href="mailto:porrasmoisem@gmail.com" class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <span>porrasmoisem@gmail.com</span>
+                </a>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <span>Santa Teresa del Tuy, Miranda, Venezuela</span>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:porrasmoisem@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Moises Porras. Desarrollado con dedicación.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
