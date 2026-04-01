@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(10, 14, 23, 0.95)';
+            navbar.style.background = 'rgba(11, 17, 32, 0.95)';
             navbar.style.boxShadow = '0 10px 30px -10px rgba(0,0,0,0.5)';
             navbar.style.padding = '1rem 5%';
         } else {
-            navbar.style.background = 'rgba(10, 14, 23, 0.85)';
+            navbar.style.background = 'rgba(11, 17, 32, 0.85)';
             navbar.style.boxShadow = 'none';
             navbar.style.padding = '1.5rem 5%';
         }
