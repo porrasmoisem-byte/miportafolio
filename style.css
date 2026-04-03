@@ -916,3 +916,19 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
+.en-proceso-animado {
+  color: #00d2ff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  animation: pulso 2s infinite;
+}
+
+@keyframes pulso {
+  0% { opacity: 1; text-shadow: 0 0 5px rgba(0, 210, 255, 0.5); }
+  50% { opacity: 0.4; text-shadow: none; }
+  100% { opacity: 1; text-shadow: 0 0 5px rgba(0, 210, 255, 0.5); }
+}
